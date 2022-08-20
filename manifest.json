@@ -1,0 +1,22 @@
+{
+    // Comments are accepted in the manifest, even though it is JSON.
+    "manifest_version": 3,
+    "name": "Twitch - Coins-AutoCollector",
+    "description": "A simple extension for automate the clicking coins progress on twitch.tv",
+    "version": "0.0.1",
+    "icons": {
+    },
+    "action": {
+    },
+    "permissions": [],
+    "host_permissions": [
+        "*://*/*"
+    ],
+    "background": {
+        "service_worker": "background.js"
+    },
+    "content_scripts": [{
+        "js": ["content.js"],
+        "matches": ["https://twitch.tv/*","https://www.twitch.tv/*"]
+    }]
+}
