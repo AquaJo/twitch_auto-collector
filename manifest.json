@@ -8,9 +8,12 @@
     },
     "action": {
     },
-    "permissions": [],
+    "permissions": [
+        "tabs"
+      ],
     "host_permissions": [
-        "*://*/*"
+        "https://twitch.tv/*",
+        "https://www.twitch.tv/*"
     ],
     "background": {
         "service_worker": "background.js"
