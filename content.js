@@ -32,6 +32,7 @@ let observer;
 function watching() {
     watchedElement = document.getElementsByClassName('Layout-sc-nxg1ff-0 Aqzax')[0];
     observer = new MutationObserver(function (mutations, mutationInstance) {
+        alert("c");
         let btn = document.getElementsByClassName('ScCoreButton-sc-1qn4ixc-0 ScCoreButtonSuccess-sc-1qn4ixc-5 ffyxRu gjXDMG')[0];
         if (btn) { // found btn --> click
             clickElementAfterTime(btn, getRandomInt(3000, 6500), tabC);

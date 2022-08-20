@@ -8,9 +8,7 @@
     },
     "action": {
     },
-    "permissions": [
-        "tabs"
-      ],
+    "permissions": [],
     "host_permissions": [
         "https://twitch.tv/*",
         "https://www.twitch.tv/*"
