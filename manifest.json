@@ -14,10 +14,9 @@
         "https://www.twitch.tv/*"
     ],
     "background": {
-        "service_worker": "background.js"
     },
     "content_scripts": [{
         "js": ["content.js"],
-        "matches": ["https://twitch.tv/*","https://www.twitch.tv/*"]
+        "matches": ["https://*.twitch.tv/*"]
     }]
 }
