@@ -9,8 +9,7 @@ window.onload = () => {
                     } catch (e) {
 
                     }
-                }, getRandomInt(3000, 6000))
-                console.log("clicked bonus --> from twitch - auto-collector");
+                }, getRandomInt(3000, 6000));
             }
         });
     });
