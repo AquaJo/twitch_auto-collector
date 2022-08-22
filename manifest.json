@@ -1,5 +1,4 @@
 {
-    // Comments are accepted in the manifest, even though it is JSON.
     "manifest_version": 3,
     "name": "Twitch - Coins-AutoCollector",
     "description": "A simple extension for automate the clicking coins progress on twitch.tv",
