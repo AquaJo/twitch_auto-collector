@@ -18,7 +18,7 @@
         let mutationObserver = new MutationObserver(function (mutations) {
             mutations.forEach(function (mutation) {
                 if (mutation.target && mutation.target.classList && document.getElementsByClassName('ScCoreButton-sc-ocjdkq-0 ScCoreButtonSuccess-sc-ocjdkq-5 ibtYyW iVIehm')[0]) {
-                    let btn = document.getElementsByClassName('SScCoreButton-sc-ocjdkq-0 ScCoreButtonSuccess-sc-ocjdkq-5 ibtYyW iVIehm')[0];
+                    let btn = document.getElementsByClassName('ScCoreButton-sc-ocjdkq-0 ScCoreButtonSuccess-sc-ocjdkq-5 ibtYyW iVIehm')[0];
                     setTimeout(function () {
                         try {
                             btn.click();
